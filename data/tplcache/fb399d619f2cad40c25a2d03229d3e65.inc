@@ -1,0 +1,1 @@
+<a class="more" href="[field:typelink /]">了解更多</a>

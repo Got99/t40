@@ -1,0 +1,5 @@
+INSERT INTO `dede_flink` VALUES('10','1','http://www.dedecms51.com/','手机网站模板','','','','1502265621','1','2');
+INSERT INTO `dede_flink` VALUES('12','1','http://www.dedecms51.com/','网址源码','','','','1502265647','1','2');
+INSERT INTO `dede_flink` VALUES('13','1','http://www.dedecms51.com/','网站模版','','','','1502265654','1','2');
+INSERT INTO `dede_flink` VALUES('14','1','http://www.dedecms51.com/','响应式网站模板','','','','1502265664','1','2');
+INSERT INTO `dede_flink` VALUES('16','1','http://www.dedecms51.com/','dede模版','','','','1502265688','1','2');

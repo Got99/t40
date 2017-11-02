@@ -1,0 +1,2 @@
+INSERT INTO `dede_addon17` VALUES('14','12','','','127.0.0.1','http://www.dedecms51.com');
+INSERT INTO `dede_addon17` VALUES('15','12','','','127.0.0.1','http://www.dedecms51.com');

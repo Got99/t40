@@ -1,0 +1,1 @@
+<li style="background: transparent url([field:litpic/]) no-repeat scroll center center / cover ; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;"><a href="[field:lj/]" target="_blank"></a></li>

@@ -1,0 +1,54 @@
+<footer>
+  <div class="layout">
+    <div class="container">
+      <div class="line foot-top hidden-l text-center not-animated"  data-animate="fadeInUp" data-delay="200">
+        <div class="xl12 xs6 xm3 margin-large-bottom">
+          <p><span class="ficon-1"></span>{dede:global.cfg_dz/}</p>
+        </div>
+        <div class="xl12 xs6 xm3 margin-large-bottom">
+          <p><span class="ficon-2"></span>联系电话：{dede:global.cfg_dh/}</p>
+        </div>
+        <div class="xl12 xs6 xm3 margin-large-bottom">
+          <p><span class="ficon-3"></span>工作时间：09:00—18：00</p>
+        </div>
+        <div class="xl12 xs6 xm3 margin-large-bottom">
+          <p><span class="ficon-4"></span><a href="mailto:{dede:global.cfg_yx/}" target="_blank">{dede:global.cfg_yx/}</a></p>
+        </div>
+      </div>
+      <div class="line foot-bot">
+        <div class="block-item text-center">
+          <div class="foot-nav"> 
+          <a href='/'>首页</a>
+          {dede:channel type='top' row='10'}
+          <a href='[field:typeurl/]'>[field:typename/]</a>
+          {/dede:channel}
+          </div>
+          <div class="copy">{dede:global.cfg_yx/}&nbsp;&nbsp;技术支持:<a href="http://www.dedecms51.com" target="_blank"  title="织梦无忧网">织梦模版</a>&nbsp;&nbsp;</div>
+          <div class="foot-link">友情链接：{dede:flink row='50'}[field:link /]{/dede:flink}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script type="text/javascript" src="/style/js/sk.js"></script> 
+
+<!--footer-->
+
+<div class="blank55"></div>
+<div id="toolbar" class="layout text-center">
+  <div class="x3"><a href="/"><span class="icon-home"></span>首页</a></div>
+  <div class="x3"><a href="tel:{dede:global.cfg_dh/}"><span class="icon-phone"></span>电话</a></div>
+  <div class="x3"><a href="sms:{dede:global.cfg_dh/}"><span class="icon-envelope-o"></span>短信</a></div>
+  <div class="x3">{dede:type typeid='10'}<a href="[field:typelink /]"><span class="icon-user"></span>联系</a>{/dede:type}</div>
+</div>
+<script src="/style/js/animate.min.js"></script> 
+<script src="/style/js/jquery.lazyload.js"></script> 
+<script type="text/javascript">
+
+    $("img.lazy").lazyload({
+
+		effect : "fadeIn"
+
+	});
+
+</script>

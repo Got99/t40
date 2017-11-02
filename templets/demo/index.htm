@@ -1,0 +1,336 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link rel="stylesheet" type="text/css" href="/style/css/pintuer.css" />
+<link rel="stylesheet" type="text/css" href="/style/css/animate.min.css" />
+<link rel="stylesheet" type="text/css" href="/style/css/style.css" />
+<script type="text/javascript" src="/style/js/jquery.min.js"></script>
+<script type="text/javascript" src="/style/js/pintuer.js"></script>
+<script src="/style/js/animate.min.js"></script>
+<script src="/style/js/jquery.flexslider-min.js"></script>
+<script src="/style/js/main.js"></script>
+<script src="/style/js/index.js"></script>
+
+<!-- FOR IE9 below -->
+
+<!--[if lt IE 9]>
+
+	<script src="/style/js/respond.js"></script>
+
+	<![endif]-->
+
+</head>
+
+<body id="index_box_id">
+<div class="main-top"> 
+  
+  <!-- 顶部导航 begin-->
+  {dede:include filename="head.htm"/}
+  <!-- 顶部导航 end--> 
+  
+  <!-- 轮播图片 begin-->
+  
+  <div class="layout" id="fh5co-hero">
+    <div class="line">
+      <div class="flexslider">
+        <ul class="slides">
+          {dede:arclist typeid='12'  row='5'  addfields='lj' channelid='17' }
+          <li style="background: transparent url([field:litpic/]) no-repeat scroll center center / cover ; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;"><a href="[field:lj/]" target="_blank"></a></li>
+          {/dede:arclist}
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 轮播图片 end--> 
+  
+</div>
+
+<!-- 公司理念 begin-->
+
+<div id="fh5co-idea-list" class="layout">
+  <div class="bg-idea">
+    <div class="container">
+      <div class="line-big content not-animated"  data-animate="fadeInUp" data-delay="200">
+        <div class="xl12 xs8 xm8 margin-largin-bottom">
+          <div class="intro">
+            <h3> 公司理念： </h3>
+            <p> 以诚信赢得市场，以质量铸造品牌，我们坚信：“品牌”不仅仅是一个商标，一件产品，是一种品质，它用良好的质量维系消费者对企业的信赖； </p>
+          </div>
+        </div>
+        <div class="xl12 xs4 xm4 margin-largin-bottom">
+          <div class="btn-more text-center">{dede:type typeid='9'}<a class="more" href="[field:typelink /]">了解更多</a>{/dede:type}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 公司理念 end--> 
+
+<!-- 我们的服务 begin-->
+
+<div id="fh5co-service-list" class="layout">
+  <div class="bg-service">
+    <div class="container">
+      <div class="line text-center not-animated"  data-animate="fadeInUp" data-delay="200">
+        <h3>我们的服务</h3>
+      </div>
+      
+      <div class="line-big content not-animated"  data-animate="fadeInUp" data-delay="200">
+      {dede:type typeid='14'}
+        <div class="xl6 xs6 xm3  text-center item-block margin-large-bottom">
+          <div class="item"><a href="[field:typelink /]" title="[field:typename /]" target="_blank">
+            <div class="media-img"><span class="chazoomimgs" style="background-image:url(/style/images/s1.jpg)"></span></div>
+            <h5>[field:typename /]</h5>
+            <p  class="desc"><span>移动共享时代主义</span></p>
+            </a></div>
+        </div>
+        {/dede:type}
+        {dede:type typeid='15'}
+        <div class="xl6 xs6 xm3  text-center item-block margin-large-bottom">
+          <div class="item"><a href="[field:typelink /]" title="[field:typename /]" target="_blank">
+            <div class="media-img"><span class="chazoomimgs" style="background-image:url(/style/images/s2.jpg)"></span></div>
+            <h5>[field:typename /]</h5>
+            <p  class="desc"><span>好看+好用+激发消费者购买欲望</span></p>
+            </a></div>
+        </div>
+        {/dede:type}
+        {dede:type typeid='16'}
+        <div class="xl6 xs6 xm3  text-center item-block margin-large-bottom">
+          <div class="item"><a href="[field:typelink /]" title="[field:typename /]" target="_blank">
+            <div class="media-img"><span class="chazoomimgs" style="background-image:url(/style/images/s3.jpg)"></span></div>
+            <h5>[field:typename /]</h5>
+            <p  class="desc"><span>用画面让产品和服务说话</span></p>
+            </a></div>
+        </div>
+        {/dede:type}
+        {dede:type typeid='17'}
+        <div class="xl6 xs6 xm3  text-center item-block margin-large-bottom">
+          <div class="item"><a href="[field:typelink /]" title="[field:typename /]" target="_blank">
+            <div class="media-img"><span class="chazoomimgs" style="background-image:url(/style/images/s4.jpg)"></span></div>
+            <h5>[field:typename /]</h5>
+            <p  class="desc"><span>从无到有，从有到更好</span></p>
+            </a></div>
+        </div>
+        {/dede:type}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 我们的服务 end--> 
+
+<!-- 成功案例 begin-->
+
+<div id="fh5co-product-list" class="layout">
+  <div class="bg-product">
+    <div class="container">
+      <div class="line fh5co-heading text-center not-animated"  data-animate="fadeInUp" data-delay="200">
+        <h2>成功案例</h2>
+        <span>形象策略+画册策划+PC端网站设计+移动端网站设计</span> </div>
+      <div class="line show-list">
+        <div class="line-big show-product  not-animated"  data-animate="bounceIn" data-delay="200">
+          {dede:arclist row='8' titlelen='36' typeid='1'}
+          <div class="xm3 xs3 xl6 margin-big-bottom text-center"><a href="[field:arcurl/]" title="[field:title/]">
+            <div class="media-img">
+              <div class="zoomimgs" style="background-image:url([field:litpic/])"></div>
+            </div>
+            <h3>[field:title/]</h3>
+            </a></div>
+          {/dede:arclist}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 成功案例 end--> 
+
+<!-- 品牌理念 begin-->
+
+<div id="fh5co-brand-idea" class="layout">
+  <div class="bg-brand">
+    <div class="container">
+      <div class="line content text-center not-animated"  data-animate="fadeIn" data-delay="200">
+        <p> <span style="color:#F13A3A;font-family:'arial black', 'avant garde';"><span>“</span></span>&nbsp; &nbsp;&nbsp; 每一个品牌都是一个产品，但不是所有的产品 &nbsp; &nbsp; <span style="color:#F13A3A;font-family:&quot;"><span style="font-family:'arial black', 'avant garde';">”</span></span> </p>
+        <p> 都是品牌~ </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 品牌理念 end--> 
+
+<!-- 我们的优势 begin-->
+
+<div id="fh5co-advantage-list" class="layout">
+  <div class="bg-advantage">
+    <div class="container">
+      <div class="line fh5co-heading text-center not-animated"  data-animate="fadeInUp" data-delay="200">
+        <h2>关于我们的优势</h2>
+        <span>不断的努力，严格要求自己，真诚的为客户服务</span> </div>
+      <div class="line-big content not-animated"  data-animate="fadeInUp" data-delay="200">
+        <div class="xl6 xs6 xm3  text-center item-block margin-large-bottom">
+          <div class="item">
+            <div class="media-img"><span class="achazoomimgs" style="background-image:url(/style/images/i1.png)"></span></div>
+            <h5>1825</h5>
+            <p  class="desc">成功案例</p>
+          </div>
+        </div>
+        <div class="xl6 xs6 xm3  text-center item-block margin-large-bottom">
+          <div class="item">
+            <div class="media-img"><span class="achazoomimgs" style="background-image:url(/style/images/i2.png)"></span></div>
+            <h5>100+</h5>
+            <p  class="desc">团队成员</p>
+          </div>
+        </div>
+        <div class="xl6 xs6 xm3  text-center item-block margin-large-bottom">
+          <div class="item">
+            <div class="media-img"><span class="achazoomimgs" style="background-image:url(/style/images/i3.png)"></span></div>
+            <h5>600+</h5>
+            <p  class="desc">客户好评</p>
+          </div>
+        </div>
+        <div class="xl6 xs6 xm3  text-center item-block margin-large-bottom">
+          <div class="item">
+            <div class="media-img"><span class="achazoomimgs" style="background-image:url(/style/images/i4.png)"></span></div>
+            <h5>700+</h5>
+            <p  class="desc">赢得奖杯</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 我们的优势 end--> 
+
+<!-- 关于我们 begin-->
+
+<div id="fh5co-about-us" class="layout">
+  <div class="bg-about">
+    <div class="line content">
+      <div class="xl12 xs6 xm6 xs6-move xm6-move">
+        <div class="intro not-animated"  data-animate="fadeInRight" data-delay="200">
+          <h3> 给你最好的体验价值 </h3>
+          <p> 网站建设、视觉设计领域从业超过10年！ </p>
+          <p> 我们了解大中小型企业的经营模式和需求 </p>
+          <p> 我们倡导让客户感知产品的体验价值，而
+            
+            不仅仅是产品的功能 </p>
+          <p class="more not-animated"  data-animate="fadeInRight" data-delay="200">{dede:type typeid='9'}<a href="[field:typelink /]">了解详情</a>{/dede:type}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 关于我们 end--> 
+
+<!-- 联系我们 begin-->
+
+<div id="fh5co-contact-us" class="layout">
+  <div class="bg-contact contact-boxs">
+    <div class="container">
+      <div class="line fh5co-heading text-center not-animated"  data-animate="fadeInUp" data-delay="200">
+        <h2>联系我们</h2>
+      </div>
+      <div class="line">
+        <div class="intro xm6 xm3-move xs12 xl12 text-center not-animated"  data-animate="fadeInUp" data-delay="200">
+          <p>如有任何问题请联系我们，我们7*24小时竭诚为您服务</p>
+          <div class="contact-details">{dede:global.cfg_dh/}</div>
+        </div>
+      </div>
+      <div class="line-big show-content not-animated"  data-animate="fadeInUp" data-delay="200">
+        <div class="xl12 xs4 xm4 margin-big-bottom">
+          <div class="content">
+            <div class="media media-x">
+              <div class="float-left">
+                <p><i class="icon-qq"></i>
+                <p>
+              </div>
+              <div class="media-body">
+                <h3>在线QQ客服</h3>
+                <p><a href="http://wpa.qq.com/msgrd?v=1&amp;uin={dede:global.cfg_qq/}&amp;site=&amp;menu=yes" target="_blank">{dede:global.cfg_qq/}</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="xl12 xs4 xm4 margin-big-bottom">
+          <div class="content">
+            <div class="media media-x">
+              <div class="float-left">
+                <p><i class="icon-weibo"></i>
+                <p>
+              </div>
+              <div class="media-body">
+                <h4><a href="{dede:global.cfg_weibo/}" target="_blank">关注新浪微博</a></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="xl12 xs4 xm4 margin-big-bottom">
+          <div class="content">
+            <div class="media media-x">
+              <div class="float-left">
+                <p><i class="icon-weixin"></i>
+                <p>
+              </div>
+              <div class="media-body">
+                <h4>关注官方微信</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line">
+        <div class="x12  text-center not-animated"  data-animate="fadeInUp" data-delay="200">
+          <div class="attention">
+            <div class="weixin-img">
+              <p><img src="/style/images/weixin.png" alt="" /></p>
+              <div class="desc">扫描查看手机版网站</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 联系我们 end--> 
+
+<!-- 新闻动态 begin-->
+
+<div id="fh5co-news-list" class="layout">
+  <div class="bg-news">
+    <div class="container">
+      <div class="line-big show-list not-animated"  data-animate="fadeInUp" data-delay="200">
+        {dede:arclist row='4' titlelen='36' typeid='6'}
+        <div class="xm3 xs3 xl6 margin-large-bottom text-center">
+          <div class="item"><a href="[field:arcurl/]" title="[field:title/]">
+            <div class="artzoomimgs" style="background-image:url([field:litpic/])"></div>
+            <h3>[field:title/]</h3>
+            <p class="desc">[field:description function='cn_substr(@me,150)'/]...</p>
+            </a></div>
+        </div>
+       {/dede:arclist}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 新闻动态 end--> 
+
+<!--footer-->
+{dede:include filename="foot.htm"/}
+</body>
+</html>

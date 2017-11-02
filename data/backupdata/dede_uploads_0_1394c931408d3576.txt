@@ -1,0 +1,15 @@
+INSERT INTO `dede_uploads` VALUES('1','0','170809/1-1FP9160216191.jpg','/uploads/allimg/170809/1-1FP9160216191.jpg','1','800','510','0','29928','1502265736','1');
+INSERT INTO `dede_uploads` VALUES('2','2','二号案例展示','/uploads/allimg/170809/1-1FP9160302E1.jpg','1','800','510','0','107575','1502265782','1');
+INSERT INTO `dede_uploads` VALUES('3','8','三号案例展示','/uploads/allimg/170809/1-1FP921120W13.jpg','1','800','510','0','32040','1502284328','1');
+INSERT INTO `dede_uploads` VALUES('4','9','四号案例展示','/uploads/allimg/170809/1-1FP9211259453.jpg','1','800','510','0','21040','1502284379','1');
+INSERT INTO `dede_uploads` VALUES('5','10','五号案例展示','/uploads/allimg/170809/1-1FP9211339354.jpg','1','800','510','0','137327','1502284419','1');
+INSERT INTO `dede_uploads` VALUES('6','11','七号案例展示','/uploads/allimg/170809/1-1FP921141c60.jpg','1','800','510','0','59098','1502284459','1');
+INSERT INTO `dede_uploads` VALUES('7','12','八号案例展示','/uploads/allimg/170809/1-1FP9211523608.jpg','1','800','510','0','39553','1502284523','1');
+INSERT INTO `dede_uploads` VALUES('8','13','六号案例展示','/uploads/allimg/170809/1-1FP9211629202.jpg','1','800','510','0','88926','1502284589','1');
+INSERT INTO `dede_uploads` VALUES('9','13','六号案例展示','/uploads/allimg/170809/1-1FP9211910450.jpg','1','800','510','0','76778','1502284750','1');
+INSERT INTO `dede_uploads` VALUES('10','14','幻灯片2','/uploads/allimg/170809/1-1FP92121070-L.jpg','1','0','0','0','175297','1502284867','1');
+INSERT INTO `dede_uploads` VALUES('11','15','幻灯片1','/uploads/allimg/170809/1-1FP92121290-L.jpg','1','0','0','0','102660','1502284889','1');
+INSERT INTO `dede_uploads` VALUES('12','6','带着seo思维选域名 建站就成功了一半','/uploads/allimg/170809/1-1FP92151262I.jpg','1','800','510','0','49075','1502286686','1');
+INSERT INTO `dede_uploads` VALUES('13','5','内容优化之有“心”创作','/uploads/allimg/170809/1-1FP9215215Z8.jpg','1','800','510','0','71873','1502286735','1');
+INSERT INTO `dede_uploads` VALUES('14','4','网络公司告诉你有关面包屑导航的事','/uploads/allimg/170809/1-1FP921524B28.jpg','1','800','510','0','66099','1502286766','1');
+INSERT INTO `dede_uploads` VALUES('15','7','如何让自己的网站更有质量？AB模板王有妙招','/uploads/allimg/170809/1-1FP9215325439.jpg','1','800','510','0','115740','1502286805','1');
